@@ -110,8 +110,7 @@ function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
     var resto = (x % y);
-    return resto;
-  
+    return resto;  
 }
 
 function esPar(num) {
@@ -119,12 +118,11 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   {
-    if(num % 2==0){
+    if(num % 2===0){
                 return true;
                  }
                  return false
   }
-  
 }
 
 function esImpar(num) {
@@ -199,25 +197,32 @@ function esPositivo(num) {
                     }
 }
 
-function agregarSimboloExclamacion() {
+function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
-  // Tu código:
-  
-}
-
-function combinarNombres() {
+  // Tu código:  
+                var nuevaString = `${str}!`;
+                return nuevaString
+                 }
+                 
+function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  
+          var nombreCompleto = `${nombre} ${ apellido}` ;
+          //var apellido = Henry;
+        //  combinarNombres(nombre + " " + apellido);
+
+              return nombreCompleto;
 }
 
-function obtenerSaludo() {
+function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  
+                var obtenerSaludo = `Hola ${nombre}!`;
+                //var obtenerSaludo = `Hola ${nombre`!`}`;
+                return obtenerSaludo;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -244,21 +249,46 @@ function areaDelTriangulo(base, altura){
 }
 
 
-function deEuroAdolar(){
+function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+                        var deEuroAdolar = euro * 1.2;
+                        return deEuroAdolar;
 }
 
 
-function esVocal(){
+function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
   //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+                            if (letra.length !== 1){
+                            return "Dato incorrecto" ;
+                            }                   // son vocales
+                            if (letra == "a"){
+                              return "Es vocal"
+                                               }
+                       else 
+                          if (letra == "e"){
+                            return "Es vocal"
+                                             }
+                        else 
+                        if (letra == "i"){
+                          return "Es vocal"
+                                           }
+                        else 
+                        if (letra == "o"){
+                          return "Es vocal"
+                                           }
+                        else 
+                        if (letra == "u"){
+                          return "Es vocal"
+                                           }      //no es vocal
+                                           else{ 
+                                           return "Dato incorrecto";
+                                           }
 }
 
 
