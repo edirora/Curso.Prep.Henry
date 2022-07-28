@@ -7,18 +7,18 @@ Ahora que nos ha visto crear un archivo HTML y una hoja de estilo externa, crear
 Crear un nuevo archivo dentro de la carpeta `homework` llamado `homework.html` donde deberás realizar lo siguiente:
 ```
 I. Cree una página HTML básica.
-  A. Cree el diseño básico para una página HTML usando html, head y body.
-  B. Agregue un elemento de título y asigne a su página el título de "Tarea HTML de [Su nombre]".
+  A. Cree el diseño básico para una página HTML usando html, head y body.ok
+  B. Agregue un elemento de título y asigne a su página el título de "Tarea HTML de [Su nombre]".0k
   C. En el cuerpo, crea tres divs.
     1. En el primer div crea:
-      * un elemento h1 que contiene [Tu nombre].
-      * un elemento h3 que contiene "Henry".
-      * un elemento h4 que contiene "tarea de HTML / CSS".
+      * un elemento h1 que contiene [Tu nombre].0k
+      * un elemento h3 que contiene "Henry".0k
+      * un elemento h4 que contiene "tarea de HTML / CSS".0k
     2. En el segundo div crea:
-      * un elemento span que contiene texto que describe su comida favorita.
-      * un elemento 'a' que se vincula a su restaurante favorito.
+      * un elemento span que contiene texto que describe su comida favorita.0k
+      * un elemento 'a' que se vincula a su restaurante favorito.0k
     3. En el tercer div crea:
-      * una lista desordenada con dos elementos dentro de la lista
+      * una lista desordenada con dos elementos dentro de la lista...0k
       * una etiqueta img en cada elemento de la lista que se vincula a su comida favorita. (Use la búsqueda de imágenes de Google para encontrar una foto y copiar la dirección de la misma o sino puede usar esta: "https://i.picsum.photos/id/1080/400/200.jpg").
 ```
 

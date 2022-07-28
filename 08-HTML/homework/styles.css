@@ -1,10 +1,10 @@
 h1
-{   margin: auto;
-    color:rebeccapurple;
+{   margin: 30px;
+    color:rgb(7, 2, 12);
     background: rgb(231, 162, 24);
     padding: 30px;
     border: 2px solid rgb(12, 1, 1);
-    width: 550px;
+    
     text-align: center;
 }
 img 
@@ -34,5 +34,5 @@ h4{text-align: center;}
 {
   margin: 0px auto;
   text-align: center;
-  color: rgb(12, 7, 7);
+  color: rgb(22, 5, 7);
 }
