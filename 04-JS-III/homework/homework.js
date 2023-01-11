@@ -8,7 +8,7 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array[array.length-1]
+  return array[array.length-1];
 }
 
 
@@ -22,15 +22,12 @@ function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
   // Aumenta cada entero por 1
   // y devuelve el array
-  // Tu código:
-  //var entero = 0;
-    let array =[];
-    for( let i= 0;  i<array.length; i++ )
-    {
-       array[i]=(array[i]+1);
-       return array[i];
-    }
-  
+
+  //var array =[];
+  var entero = [];
+  for(i=0; i < array.length; i++){
+    entero.push(array[i] + 1);
+  } return entero;
       }
 
 function agregarItemAlFinalDelArray(array, elemento) {
@@ -38,8 +35,8 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // y devuelve el array
   // Tu código:
              
-  return array.push(elemento);
-         
+  array.push(elemento);
+  return array
            }
 
 function agregarItemAlComienzoDelArray(array, elemento) {
@@ -58,6 +55,12 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+   /* let Hello = [Hello];
+    let world = [world];
+    let palabras = Hello.concat(world).join("!");
+    return palabras;*/
+   return palabras.join(" ");
+   // return palabras;
 }
 
 
@@ -65,6 +68,7 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  return (array.includes(elemento));
 }
 
 
@@ -72,13 +76,30 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+  //let numeros = [1,2,3,4,5,6,7,8,9];
+    let suma = 0;
+    for (i = 0; i < numeros.length; ++i)
+    {
+       suma += numeros[i];
+    }
+
 }
-
-
 function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  let promedio = 0;
+  let suma =0;
+ /* let resultadosTest = [1,2,3,4,5,6];
+  let suma = 0;
+  let promedioResultadosTest = 0;
+    for(i=0; i< resultadosTest.length; ++i)*/
+    // 
+   for(let i=0; resultadosTest.length; i++){
+      suma += resultadosTest[i];
+      promedio = suma/resultadosTest.length;
+   } 
+   return promedio;
 }
 
 
@@ -86,13 +107,28 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  /*let numeros = [1,2,3,4,5,6,7,8,9,10];
+  let filtrar = numeros.filter(Number.MAX_VALUE);
+   return (filtrar);*/
+   numeros.filter(Number.MAX_VALUE);
+   return numeros;
+  
 }
 
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
-  // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
+ // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
+  /*if(arguments<1)
+  {
+    return (0);
+  }
+  else
+  {
+
+  }
+  */
 }
 
 
@@ -100,6 +136,8 @@ function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
 
+ // let cuentoElementos = [2,19,1,23,65,9,0,21,35,];
+  //let arreglo = cuentoElementos.filter(num => num > 18);
 }
 
 
@@ -109,7 +147,7 @@ function diaDeLaSemana(numeroDeDia) {
   //si el día corresponde a Sábado o Domingo y “Es dia Laboral” en caso contrario. 
   //Escribe tu código aquí   
   
-} 
+    }
 
 
 function empiezaConNueve(n) {
@@ -161,6 +199,18 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
+  /*
+  let numero = 0;
+  for (i = 0; i < 10; i ++)
+  {
+    numero = i + 2;
+  }
+    if (i = 5)
+ {
+ Continue
+ }
+              return numero;
+              */
 }
 
 
